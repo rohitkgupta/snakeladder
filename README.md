@@ -1,5 +1,6 @@
-# Command Console
+# Snake Ladder Game
 This project is written in Java and uses gradle for build.
+
  
 
 ####Build Steps:
