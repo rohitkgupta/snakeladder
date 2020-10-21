@@ -1,4 +1,4 @@
-package com.game.snakeladder.bean;
+package com.game.snakeladder.bean.dice;
 
 public interface Dice {
     int roll();

@@ -1,4 +1,4 @@
-package com.game.snakeladder.bean;
+package com.game.snakeladder.bean.dice;
 
 import java.util.Random;
 
@@ -7,7 +7,6 @@ public class NormalDice implements Dice {
 
     @Override
     public int roll() {
-        int nextInt = random.nextInt(7);
-        return nextInt;
+        return random.nextInt(6) + 1;
     }
 }
