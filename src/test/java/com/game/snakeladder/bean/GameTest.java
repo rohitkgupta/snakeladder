@@ -35,7 +35,6 @@ public class GameTest {
 
     @Test
     public void testStartGameWith1CellBoard(){
-        //Mockito.when(dice.roll()).thenReturn(5);
         Mockito.when(mockedBoard.getPlayerPosition(player.getName())).thenReturn(1);
         Mockito.when(mockedBoard.getSize()).thenReturn(1);
         gameWithMockedBoard.startGame();
