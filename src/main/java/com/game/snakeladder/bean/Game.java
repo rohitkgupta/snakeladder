@@ -29,9 +29,6 @@ public class Game {
     }
 
     private boolean isWon(Player player) {
-        if (board.getPlayerPosition(player.getName()) == board.getSize()) {
-            return true;
-        }
-        return false;
+        return board.getPlayerPosition(player.getName()) == board.getSize();
     }
 }
